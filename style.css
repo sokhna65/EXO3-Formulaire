@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+body{
+    background-color: #089a9a;
+    text-align: center;
+    justify-content:  center;
+    align-items: center;
+    height: 100vh;
+
+}
+.centrer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
+.form{
+    background-color: #fff;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px  #089a9a;
+    width: 45%;
+    text-align: center;
+
+}
+h1{
+    margin-bottom: 15px;
+    color: #089a9a;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    text-align: left;
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+input[type="text"], input[type="password"]{
+    width: 300px;
+    height: 2px;
+    border: none ;
+    border-bottom: 2px solid #089a9a;
+    outline: none;
+}
+.checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.checkbox input{
+    margin-right: 5px;
+}
+button{
+    background-color: #089a9a;
+    color: white;
+    padding: 10px; /*YOOKK KO */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  
+
+}
+
+button:hover{
+    background-color: #089a9a;
+
+}
+
+p{
+    margin-top: 10px;
+    font: size 14px;
+}
+a{
+    color: #089a9a;
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
